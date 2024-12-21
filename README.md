@@ -1,7 +1,3 @@
-Hier ist die README-Datei für GitHub, die beschreibt, wie der Discord-Bot auf einem Server eingerichtet wird und wie er bedient werden kann:
-
----
-
 # **⭐ Discord Squadleader Bot**
 
 Ein Discord-Bot zur Verwaltung von Squadleadern und Squads, inklusive Map-Informationen. Der Bot ist flexibel einsetzbar und lässt sich einfach auf jedem Server einrichten.
