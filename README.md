@@ -34,7 +34,7 @@ Diese Befehle dienen der Konfiguration des Bots auf deinem Server:
 
 2. `/set_api_domain`  
    **Beschreibung:** Setze die API-Domain, um Map-Informationen abzurufen.  
-   **Beispiel:** `/set_api_domain https://rcon.1bv.eu`  
+   **Beispiel:** `/set_api_domain https://rcon.domain.eu`  
 
 3. `/add_channel`  
    **Beschreibung:** Füge einen Voice-Kanal als Squad-Kanal hinzu.  
