@@ -1,4 +1,3 @@
-```markdown
 # **⭐ Discord Squadleader Bot**
 
 A Discord bot for managing squad leaders and squads, including map information. The bot is flexible and easy to set up on any server.
@@ -230,4 +229,3 @@ Erstelle einen **Issue** oder reiche einen **Pull Request** ein.
 
 If you have any questions or issues, feel free to reach out! 😊  
 Falls du Fragen oder Probleme hast, melde dich gern! 😊
-```
