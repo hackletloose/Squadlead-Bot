@@ -1,0 +1,49 @@
+# Bytecode-Dateien
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtuelle Umgebungen
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Logdateien
+*.log
+
+# Umgebungsvariablen
+.env
+
+# SQLite-Datenbank
+*.db
+
+# Cache- und temporäre Dateien
+*.cache
+*.tmp
+*.swp
+*.swo
+
+# Pytest und Unit-Test Dateien
+.coverage
+*.cover
+.tox/
+nosetests.xml
+coverage.xml
+*.pytest_cache/
+
+# Distribution/Packaging
+*.egg
+*.egg-info/
+dist/
+build/
+
+# IDE und Editor spezifisch
+.vscode/
+.idea/
+*.iml
+
+# Sonstiges
+.DS_Store
+Thumbs.db
