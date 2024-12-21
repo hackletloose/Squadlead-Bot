@@ -1,50 +1,26 @@
 # **⭐ Discord Squadleader Bot**
 
+[English](#english) | [Deutsch](#deutsch)
+
+---
+
+## **English**
+
+### **⭐ Discord Squadleader Bot**
+
 A Discord bot for managing squad leaders and squads, including map information. The bot is flexible and easy to set up on any server.
 
-# **⭐ Discord Squadleader Bot**
-
-Ein Discord-Bot zur Verwaltung von Squadleadern und Squads, inklusive Map-Informationen. Der Bot ist flexibel einsetzbar und lässt sich einfach auf jedem Server einrichten.
-
 ---
 
-## **Language Switching / Sprachauswahl**
+## **Invitation and Setup**
 
-The Discord Squadleader Bot supports both English and German languages. You can switch the bot's language using the following commands:
-
-**English:**
-- `/set_language english`  
-  **Description:** Sets the bot's language to English.
-
-**Deutsch:**
-- `/set_language deutsch`  
-  **Beschreibung:** Setzt die Sprache des Bots auf Deutsch.
-
----
-
-## **Invitation and Setup / Einladung und Einrichtung**
-
-### **1. Invite the Bot / Bot einladen**
+### **1. Invite the Bot**
 Invite the bot to your Discord server using the following link:
 
 🔗 [Invite Discord Bot](https://discord.com/oauth2/authorize?client_id=1320093639074119721&permissions=1141760&integration_type=0&scope=bot+applications.commands)
 
-### **1. Bot einladen**
-Lade den Bot mit dem folgenden Link auf deinen Discord-Server ein:
-
-🔗 [Discord-Bot einladen](https://discord.com/oauth2/authorize?client_id=1320093639074119721&permissions=1141760&integration_type=0&scope=bot+applications.commands)
-
-### **2. Required Permissions / Benötigte Berechtigungen**
+### **2. Required Permissions**
 The bot requires the following permissions to function fully:
-
-- `Send Messages`
-- `Embed Links`
-- `Read Message History`
-- `Connect`
-- `View Channels`
-
-### **2. Benötigte Berechtigungen**
-Der Bot benötigt folgende Berechtigungen, um vollständig zu funktionieren:
 - `Send Messages`
 - `Embed Links`
 - `Read Message History`
@@ -53,16 +29,12 @@ Der Bot benötigt folgende Berechtigungen, um vollständig zu funktionieren:
 
 ---
 
-## **Bot Commands / Bot-Befehle**
+## **Bot Commands**
 
 The bot is fully controlled via **Slash Commands** (`/`) and text commands (`!`).
 
-Der Bot wird vollständig über **Slash-Befehle** (`/`) und Textbefehle (`!`) gesteuert.
-
-### **Slash Commands / Slash-Befehle**
+### **Slash Commands**
 These commands are used to configure the bot on your server:
-
-**English:**
 
 1. `/set_text_channel`  
    **Description:** Sets the text channel for Squad-Bot commands.  
@@ -84,7 +56,123 @@ These commands are used to configure the bot on your server:
    **Description:** Displays all registered voice channels and their configurations.  
    **Example:** `/list_channels`  
 
+---
+
+### **Text Commands**
+The bot responds to the following text commands in the designated text channel:
+
+1. **`!squadlead`**  
+   **Description:** Starts the selection of squad leaders and creates squads.  
+   **Result:** The bot automatically selects squad leaders for the registered voice channels and divides players into squads.
+
+---
+
+## **Functionality**
+
+1. **Squad Leader Selection:**  
+   - Players from the registered voice channel are randomly selected as squad leaders.
+   - Players who are not bots are automatically divided into squads (maximum 6 members).
+
+2. **Map Information:**  
+   - If an API domain is set up, the bot displays the current map.
+
+3. **Flexibility:**  
+   - The bot can be used on multiple servers simultaneously. Each server's configuration is independent.
+
+---
+
+## **Example Output**
+
+### **Discord Message**
+
+```
+Squadleader and Squads
+
+1 Squad(s) have been created for the channel 🎧│Seeding!
+
+**Current Map**
+Omaha Beach
+
+**Squad 1 (Leader: ⭐ [1.BV] Biene)**
+⭐ **[1.BV] Biene**
+
+🪖 [1.BV] GermanMeatLoaf  
+🪖 [1.BV] bumbumkill  
+🪖 [1.BV] Harrald von Holz  
+```
+
+---
+
+## **Common Issues**
+
+### **1. The bot does not respond to commands**
+- Ensure that the text channel has been set using `/set_text_channel`.
+- Check the bot's permissions, especially:
+  - `Send Messages`
+  - `Embed Links`
+
+### **2. Map information is not displayed**
+- Verify that the API domain has been correctly set using `/set_api_domain`.
+- Ensure that the API is reachable.
+
+---
+
+## **Language Switching**
+
+The Discord Squadleader Bot supports both English and German languages. You can switch the bot's language using the following commands:
+
+**English:**
+- `/set_language english`  
+  **Description:** Sets the bot's language to English.
+
 **Deutsch:**
+- `/set_language deutsch`  
+  **Beschreibung:** Setzt die Sprache des Bots auf Deutsch.
+
+---
+
+## **Contributing**
+
+Contributions and suggestions for improvements are welcome!  
+Create an **Issue** or submit a **Pull Request**.
+
+---
+
+If you have any questions or issues, feel free to reach out! 😊
+
+---
+
+## **Deutsch**
+
+### **⭐ Discord Squadleader Bot**
+
+Ein Discord-Bot zur Verwaltung von Squadleadern und Squads, inklusive Map-Informationen. Der Bot ist flexibel einsetzbar und lässt sich einfach auf jedem Server einrichten.
+
+---
+
+## **Einladung und Einrichtung**
+
+### **1. Bot einladen**
+Lade den Bot mit dem folgenden Link auf deinen Discord-Server ein:
+
+🔗 [Discord-Bot einladen](https://discord.com/oauth2/authorize?client_id=1320093639074119721&permissions=1141760&integration_type=0&scope=bot+applications.commands)
+
+### **2. Benötigte Berechtigungen**
+Der Bot benötigt folgende Berechtigungen, um vollständig zu funktionieren:
+- `Send Messages`
+- `Embed Links`
+- `Read Message History`
+- `Connect`
+- `View Channels`
+
+---
+
+## **Bot-Befehle**
+
+Der Bot wird vollständig über **Slash-Befehle** (`/`) und Textbefehle (`!`) gesteuert.
+
+### **Slash-Befehle**
+Diese Befehle dienen der Konfiguration des Bots auf deinem Server:
 
 1. `/set_text_channel`  
    **Beschreibung:** Setze den Textkanal für die Squad-Bot-Befehle.  
@@ -108,16 +196,8 @@ These commands are used to configure the bot on your server:
 
 ---
 
-### **Text Commands / Textbefehle**
-The bot responds to the following text commands in the designated text channel:
-
-**English:**
-
-1. **`!squadlead`**  
-   **Description:** Starts the selection of squad leaders and creates squads.  
-   **Result:** The bot automatically selects squad leaders for the registered voice channels and divides players into squads.
-
-**Deutsch:**
+### **Textbefehle**
+Der Bot reagiert auf folgende Textbefehle im definierten Textkanal:
 
 1. **`!squadlead`**  
    **Beschreibung:** Startet die Auswahl eines Squadleaders und erstellt Squads.  
@@ -125,21 +205,7 @@ The bot responds to the following text commands in the designated text channel:
 
 ---
 
-## **Functionality / Funktionsweise**
-
-**English:**
-
-1. **Squad Leader Selection:**  
-   - Players from the registered voice channel are randomly selected as squad leaders.
-   - Players who are not bots are automatically divided into squads (maximum 6 members).
-
-2. **Map Information:**  
-   - If an API domain is set up, the bot displays the current map.
-
-3. **Flexibility:**  
-   - The bot can be used on multiple servers simultaneously. Each server's configuration is independent.
-
-**Deutsch:**
+## **Funktionsweise**
 
 1. **Squadleader-Auswahl:**  
    - Spieler aus dem registrierten Voice-Kanal werden zufällig als Squadleader ausgewählt.
@@ -153,25 +219,9 @@ The bot responds to the following text commands in the designated text channel:
 
 ---
 
-## **Example Output / Beispielausgabe**
+## **Beispielausgabe**
 
-### **Discord Message / Discord-Nachricht**
-
-```
-Squadleader and Squads
-
-1 Squad(s) have been created for the channel 🎧│Seeding!
-
-**Current Map**
-Omaha Beach
-
-**Squad 1 (Leader: ⭐ [1.BV] Biene)**
-⭐ **[1.BV] Biene**
-
-🪖 [1.BV] GermanMeatLoaf  
-🪖 [1.BV] bumbumkill  
-🪖 [1.BV] Harrald von Holz  
-```
+### **Discord-Nachricht**
 
 ```
 Squadleader und Squads
@@ -191,13 +241,7 @@ Omaha Beach
 
 ---
 
-## **Common Issues / Häufige Probleme**
-
-### **1. The bot does not respond to commands / Der Bot antwortet nicht auf Befehle**
-- Ensure that the text channel has been set using `/set_text_channel`.
-- Check the bot's permissions, especially:
-  - `Send Messages`
-  - `Embed Links`
+## **Häufige Probleme**
 
 ### **1. Der Bot antwortet nicht auf Befehle**
 - Stelle sicher, dass der Textkanal mit `/set_text_channel` festgelegt wurde.
@@ -205,27 +249,31 @@ Omaha Beach
   - `Send Messages`
   - `Embed Links`
 
-### **2. Map information is not displayed / Die Map-Informationen werden nicht angezeigt**
-- Verify that the API domain has been correctly set using `/set_api_domain`.
-- Ensure that the API is reachable.
-
 ### **2. Die Map-Informationen werden nicht angezeigt**
 - Prüfe, ob die API-Domain mit `/set_api_domain` korrekt eingerichtet wurde.
 - Stelle sicher, dass die API erreichbar ist.
 
 ---
 
-## **Contributing / Mitwirken**
+## **Sprachauswahl**
+
+Der Discord Squadleader Bot unterstützt sowohl Englisch als auch Deutsch. Du kannst die Sprache des Bots mit den folgenden Befehlen wechseln:
 
 **English:**
-Contributions and suggestions for improvements are welcome!  
-Create an **Issue** or submit a **Pull Request**.
+- `/set_language english`  
+  **Description:** Sets the bot's language to English.
 
 **Deutsch:**
+- `/set_language deutsch`  
+  **Beschreibung:** Setzt die Sprache des Bots auf Deutsch.
+
+---
+
+## **Mitwirken**
+
 Beiträge und Verbesserungsvorschläge sind willkommen!  
 Erstelle einen **Issue** oder reiche einen **Pull Request** ein.
 
 ---
 
-If you have any questions or issues, feel free to reach out! 😊  
 Falls du Fragen oder Probleme hast, melde dich gern! 😊
