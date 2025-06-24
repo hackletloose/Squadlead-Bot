@@ -402,6 +402,9 @@ async def on_message(message):
     if message.author.bot:
         return
 
+    if message.guild is None:
+        return
+
     text_channel = await get_text_channel(message.guild.id)
     if text_channel is None or message.channel.id != text_channel.id:
         return
